@@ -8,10 +8,19 @@
 # syntax:
 # while condition:
 #     # code to be executed
-
+"""
 name = input("Enter your name: ")
 
 while name == "":
   print("You didn't enter your name")
   name = input("Enter your name: ")
 print(f"Hello {name}")
+
+"""
+
+# 2.For loops = used to iterate over a sequence (list, tuple, string) or other iterable objects
+"""
+for x in reversed(range(1,11,2)):
+  print(x)
+  
+"""
