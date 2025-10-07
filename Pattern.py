@@ -1,4 +1,6 @@
 n = int(input("Enter number of rows: "))
+
+# Print square pattern
 """
 for x in range(n):
   for y in range(n):
@@ -6,6 +8,7 @@ for x in range(n):
   print()
 
 """
+# Print right angle triangle pattern
 """
 
 for x in range(n):
@@ -14,6 +17,7 @@ for x in range(n):
   print()
 
 """
+# Print inverted right angle triangle pattern
 """
 
 for x in range(n):
@@ -22,7 +26,7 @@ for x in range(n):
   print()
 
 """
-
+# Print pyramid pattern
 """
 for x in range(n):
   for y in range(x+1):
@@ -32,6 +36,7 @@ for x in range(n):
 
   print()
 """
+# Print inverted pyramid pattern
 """
 for x in range(n):
   for y in range(x, n):
@@ -42,6 +47,7 @@ for x in range(n):
   print()
 
 """
+# Print Right Triangle Star Pattern
 """
 for x in range(n):
   for y in range(x,n):
@@ -51,7 +57,7 @@ for x in range(n):
   print()
 
 """
-
+# Print Inverted Left Triangle Star Pattern
 """
 for x in range(n):
   for y in range(x + 1):
@@ -61,7 +67,8 @@ for x in range(n):
   print()
 
 """
-
+# hill pattern
+"""
 for x in range(n):
   for y in range(x, n):
     print(' ', end=" ")
@@ -72,4 +79,35 @@ for x in range(n):
   print()
 
 
+"""
+# Reverse hill pattern
+"""
+for x in range(n):
+  for y in range(x +1):
+    print(' ', end=" ")
+  for y in range(x, n):
+    print("*", end=" ")
+  for y in range(x,n-1):
+    print("*", end=" ")
+  print()
+"""
 
+# diamond pattern
+"""
+for x in range(n-1):
+  for y in range(x, n):
+    print(" ", end=" ")
+  for y in range(x + 1):
+    print("*", end=" ")
+  for y in range(x):
+    print("*", end=" ")
+  print()
+for x in range(n):
+  for y in range(x +1):
+    print(" ", end = " ")
+  for y in range(x, n):
+    print("*", end=" ")
+  for y in range(x,n-1):
+    print("*", end=" ")
+  print()
+"""
