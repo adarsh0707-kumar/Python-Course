@@ -23,7 +23,8 @@ print(f"Hello {name}")
 for x in reversed(range(1,11,2)):
   print(x)
   
-"""
+
+
 for x in range(1, 21):
   if x == 13:
     print("Unlucky")
@@ -31,3 +32,14 @@ for x in range(1, 21):
     break
   else: 
     print(x)
+
+
+"""
+
+# 3. Nested loops = a loop inside another loop
+
+for x in range(1, 4):
+  for y in range(1, 10):
+    print(y, end="")
+  print()
+
